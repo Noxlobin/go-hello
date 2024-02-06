@@ -5,8 +5,8 @@ package main
 // Now run 'hello' in ur terminal. What do you see? 'Hello, World!'
 // Its somewhat of a safety maintainace program. And I'm here to recreate it.
 
-import "fmt"
+import "github.com/Noxlobin/go-hello/cmd"
 
 func main() {
-
+	cmd.Execute()
 }
